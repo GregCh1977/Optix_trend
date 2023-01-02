@@ -1,0 +1,18 @@
+Name: Template
+Type: FolderType
+Children:
+- Name: MainPage
+  Id: g=8abe5d5d8892a8904330c4e196f59bfc
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
